@@ -1,0 +1,682 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APP_FLAGS	docs/Graphite/Makefile	/^APP_FLAGS ?= $(THREADS) $(SIZE) $(DEGREE)$/;"	m
+BILLION	apps/apsp/apsp.cc	15;"	d	file:
+BILLION	apps/bc/bc.cc	16;"	d	file:
+BILLION	apps/bc/bc_non_partitioned.cc	16;"	d	file:
+BILLION	apps/bfs/bfs.cc	17;"	d	file:
+BILLION	apps/bfs/bfs_atomic.cc	18;"	d	file:
+BILLION	apps/community/community_atomic.cc	12;"	d	file:
+BILLION	apps/community/community_lock.cc	11;"	d	file:
+BILLION	apps/connected_components/connected_components_atomic.cc	12;"	d	file:
+BILLION	apps/connected_components/connected_components_lock.cc	11;"	d	file:
+BILLION	apps/dfs/dfs.cc	17;"	d	file:
+BILLION	apps/pagerank/pagerank.cc	11;"	d	file:
+BILLION	apps/pagerank/pagerank_lock.cc	11;"	d	file:
+BILLION	apps/sssp/sssp.cc	17;"	d	file:
+BILLION	apps/sssp/sssp_outer.cc	16;"	d	file:
+BILLION	apps/sssp/sssp_outer_atomic.cc	17;"	d	file:
+BILLION	apps/triangle_counting/sorted_neighbors_tri_lock.cc	12;"	d	file:
+BILLION	apps/triangle_counting/triangle_counting_atomic.cc	13;"	d	file:
+BILLION	apps/triangle_counting/triangle_counting_lock.cc	12;"	d	file:
+BILLION	common/mtx.h	7;"	d
+C	apps/community/community_atomic.cc	/^   float*      C;$/;"	m	struct:__anon13	file:
+C	apps/community/community_lock.cc	/^   float*      C;$/;"	m	struct:__anon14	file:
+CRONO_DIR	Makefile	/^CRONO_DIR=$(PWD)$/;"	m
+CXXFLAGS	apps/apsp/Makefile	/^CXXFLAGS = -g -static --std=c++0x -O3 -I\/home\/yuan\/Capcom\/capcom-gem5 -I\/home\/yuan\/Capcom\/capcom-gem5\/include -L\/home\/yuan\/Capcom\/capcom-gem5\/util\/m5\/build\/x86\/out$/;"	m
+CXXFLAGS	apps/bc/Makefile	/^CXXFLAGS = -g -static --std=c++0x -O3$/;"	m
+CXXFLAGS	apps/bfs/Makefile	/^CXXFLAGS = -g -static --std=c++0x -O3 -I\/home\/yuan\/Capcom\/capcom-gem5 -I\/home\/yuan\/Capcom\/capcom-gem5\/include -L\/home\/yuan\/Capcom\/capcom-gem5\/util\/m5\/build\/x86\/out$/;"	m
+CXXFLAGS	apps/community/Makefile	/^CXXFLAGS = -g -static --std=c++0x -O3 -I\/home\/yuan\/Capcom\/capcom-gem5 -I\/home\/yuan\/Capcom\/capcom-gem5\/include -L\/home\/yuan\/Capcom\/capcom-gem5\/util\/m5\/build\/x86\/out $/;"	m
+CXXFLAGS	apps/connected_components/Makefile	/^CXXFLAGS = -g -static --std=c++0x -O3 -I\/home\/yuan\/Capcom\/capcom-gem5 -I\/home\/yuan\/Capcom\/capcom-gem5\/include -L\/home\/yuan\/Capcom\/capcom-gem5\/util\/m5\/build\/x86\/out$/;"	m
+CXXFLAGS	apps/dfs/Makefile	/^CXXFLAGS = -g --std=c++0x -O3$/;"	m
+CXXFLAGS	apps/pagerank/Makefile	/^CXXFLAGS = -g -static --std=c++0x -O3$/;"	m
+CXXFLAGS	apps/sssp/Makefile	/^CXXFLAGS = -g -static --std=c++0x -O3 -I\/home\/yuan\/Capcom\/capcom-gem5 -I\/home\/yuan\/Capcom\/capcom-gem5\/include -L\/home\/yuan\/Capcom\/capcom-gem5\/util\/m5\/build\/x86\/out$/;"	m
+CXXFLAGS	apps/triangle_counting/Makefile	/^CXXFLAGS = -g -static --std=c++0x -O3 -I\/home\/yuan\/Capcom\/capcom-gem5 -I\/home\/yuan\/Capcom\/capcom-gem5\/include -L\/home\/yuan\/Capcom\/capcom-gem5\/util\/m5\/build\/x86\/out$/;"	m
+CXXFLAGS	apps/tsp/Makefile	/^CXXFLAGS = -g -static --std=c++0x -O3$/;"	m
+D	apps/apsp/apsp.cc	/^   int*      D;$/;"	m	struct:__anon1	file:
+D	apps/bc/bc.cc	/^   int*      D;$/;"	m	struct:__anon6	file:
+D	apps/bc/bc_non_partitioned.cc	/^   int*      D;$/;"	m	struct:__anon5	file:
+D	apps/bfs/bfs.cc	/^   int*      D;$/;"	m	struct:__anon4	file:
+D	apps/bfs/bfs_atomic.cc	/^   int*      D;$/;"	m	struct:__anon3	file:
+D	apps/community/community_atomic.cc	/^   int*        D;$/;"	m	struct:__anon13	file:
+D	apps/community/community_lock.cc	/^   int*        D;$/;"	m	struct:__anon14	file:
+D	apps/connected_components/connected_components_atomic.cc	/^   int*      D;$/;"	m	struct:__anon15	file:
+D	apps/connected_components/connected_components_lock.cc	/^   int*      D;$/;"	m	struct:__anon16	file:
+D	apps/sssp/sssp.cc	/^   int*      D;$/;"	m	struct:__anon11	file:
+D	apps/sssp/sssp_outer.cc	/^   int*      D;$/;"	m	struct:__anon10	file:
+D	apps/sssp/sssp_outer_atomic.cc	/^   int*      D;$/;"	m	struct:__anon12	file:
+D	apps/triangle_counting/sorted_neighbors_tri_lock.cc	/^   int*      D;$/;"	m	struct:__anon8	file:
+D	apps/triangle_counting/triangle_counting_atomic.cc	/^   int*      D;$/;"	m	struct:__anon7	file:
+D	apps/triangle_counting/triangle_counting_lock.cc	/^   int*      D;$/;"	m	struct:__anon9	file:
+DEG	apps/apsp/apsp.cc	/^   int       DEG;$/;"	m	struct:__anon1	file:
+DEG	apps/bc/bc.cc	/^   int       DEG;$/;"	m	struct:__anon6	file:
+DEG	apps/bc/bc_non_partitioned.cc	/^   int       DEG;$/;"	m	struct:__anon5	file:
+DEG	apps/bfs/bfs.cc	/^   int       DEG;$/;"	m	struct:__anon4	file:
+DEG	apps/bfs/bfs_atomic.cc	/^   int       DEG;$/;"	m	struct:__anon3	file:
+DEG	apps/community/community_atomic.cc	/^   int         DEG;                  \/\/Edges per vertex$/;"	m	struct:__anon13	file:
+DEG	apps/community/community_lock.cc	/^   int         DEG;                  \/\/Edges per vertex$/;"	m	struct:__anon14	file:
+DEG	apps/connected_components/connected_components_atomic.cc	/^   int       DEG;$/;"	m	struct:__anon15	file:
+DEG	apps/connected_components/connected_components_lock.cc	/^   int       DEG;$/;"	m	struct:__anon16	file:
+DEG	apps/dfs/dfs.cc	/^   int       DEG;$/;"	m	struct:__anon2	file:
+DEG	apps/pagerank/pagerank.cc	/^   int       DEG;$/;"	m	struct:__anon17	file:
+DEG	apps/pagerank/pagerank_lock.cc	/^   int       DEG;$/;"	m	struct:__anon18	file:
+DEG	apps/sssp/sssp.cc	/^   int       DEG;$/;"	m	struct:__anon11	file:
+DEG	apps/sssp/sssp_outer.cc	/^   int       DEG;$/;"	m	struct:__anon10	file:
+DEG	apps/sssp/sssp_outer_atomic.cc	/^   int       DEG;$/;"	m	struct:__anon12	file:
+DEG	apps/triangle_counting/sorted_neighbors_tri_lock.cc	/^   int       DEG;$/;"	m	struct:__anon8	file:
+DEG	apps/triangle_counting/triangle_counting_atomic.cc	/^   int       DEG;$/;"	m	struct:__anon7	file:
+DEG	apps/triangle_counting/triangle_counting_lock.cc	/^   int       DEG;$/;"	m	struct:__anon9	file:
+DEGREE	docs/Graphite/Makefile	/^DEGREE ?= 16$/;"	m
+D_temp	apps/sssp/sssp_outer.cc	/^   int*      D_temp;$/;"	m	struct:__anon10	file:
+D_temp	apps/sssp/sssp_outer_atomic.cc	/^   int*      D_temp;$/;"	m	struct:__anon12	file:
+INF	apps/tsp/tsp.cc	19;"	d	file:
+INT_MAX	apps/apsp/apsp.cc	14;"	d	file:
+INT_MAX	apps/bc/bc.cc	15;"	d	file:
+INT_MAX	apps/bc/bc_non_partitioned.cc	15;"	d	file:
+INT_MAX	apps/bfs/bfs.cc	15;"	d	file:
+INT_MAX	apps/bfs/bfs_atomic.cc	16;"	d	file:
+INT_MAX	apps/community/community_atomic.cc	11;"	d	file:
+INT_MAX	apps/community/community_lock.cc	10;"	d	file:
+INT_MAX	apps/connected_components/connected_components_atomic.cc	11;"	d	file:
+INT_MAX	apps/connected_components/connected_components_lock.cc	10;"	d	file:
+INT_MAX	apps/dfs/dfs.cc	15;"	d	file:
+INT_MAX	apps/pagerank/pagerank.cc	10;"	d	file:
+INT_MAX	apps/pagerank/pagerank_lock.cc	10;"	d	file:
+INT_MAX	apps/sssp/sssp.cc	16;"	d	file:
+INT_MAX	apps/sssp/sssp_outer.cc	15;"	d	file:
+INT_MAX	apps/sssp/sssp_outer_atomic.cc	16;"	d	file:
+INT_MAX	apps/triangle_counting/sorted_neighbors_tri_lock.cc	11;"	d	file:
+INT_MAX	apps/triangle_counting/triangle_counting_atomic.cc	12;"	d	file:
+INT_MAX	apps/triangle_counting/triangle_counting_lock.cc	11;"	d	file:
+INT_MAX	common/mtx.h	6;"	d
+MAX	apps/apsp/apsp.cc	13;"	d	file:
+MAX	apps/bc/bc.cc	14;"	d	file:
+MAX	apps/bc/bc_non_partitioned.cc	14;"	d	file:
+MAX	apps/bfs/bfs.cc	14;"	d	file:
+MAX	apps/bfs/bfs_atomic.cc	15;"	d	file:
+MAX	apps/community/community_atomic.cc	10;"	d	file:
+MAX	apps/community/community_lock.cc	9;"	d	file:
+MAX	apps/connected_components/connected_components_atomic.cc	10;"	d	file:
+MAX	apps/connected_components/connected_components_lock.cc	9;"	d	file:
+MAX	apps/dfs/dfs.cc	14;"	d	file:
+MAX	apps/pagerank/pagerank.cc	9;"	d	file:
+MAX	apps/pagerank/pagerank_lock.cc	9;"	d	file:
+MAX	apps/sssp/sssp.cc	15;"	d	file:
+MAX	apps/sssp/sssp_outer.cc	14;"	d	file:
+MAX	apps/sssp/sssp_outer_atomic.cc	15;"	d	file:
+MAX	apps/triangle_counting/sorted_neighbors_tri_lock.cc	10;"	d	file:
+MAX	apps/triangle_counting/triangle_counting_atomic.cc	11;"	d	file:
+MAX	apps/triangle_counting/triangle_counting_lock.cc	10;"	d	file:
+MAX	common/mtx.h	5;"	d
+N	apps/apsp/apsp.cc	/^   int       N;$/;"	m	struct:__anon1	file:
+N	apps/bc/bc.cc	/^   int       N;$/;"	m	struct:__anon6	file:
+N	apps/bc/bc_non_partitioned.cc	/^   int       N;$/;"	m	struct:__anon5	file:
+N	apps/bfs/bfs.cc	/^   int       N;$/;"	m	struct:__anon4	file:
+N	apps/bfs/bfs_atomic.cc	/^   int       N;$/;"	m	struct:__anon3	file:
+N	apps/community/community_atomic.cc	/^   int         N;                    \/\/Total vertices$/;"	m	struct:__anon13	file:
+N	apps/community/community_lock.cc	/^   int         N;                    \/\/Total vertices$/;"	m	struct:__anon14	file:
+N	apps/connected_components/connected_components_atomic.cc	/^   int       N;$/;"	m	struct:__anon15	file:
+N	apps/connected_components/connected_components_lock.cc	/^   int       N;$/;"	m	struct:__anon16	file:
+N	apps/dfs/dfs.cc	/^   int       N;$/;"	m	struct:__anon2	file:
+N	apps/pagerank/pagerank.cc	/^   int       N;$/;"	m	struct:__anon17	file:
+N	apps/pagerank/pagerank_lock.cc	/^   int       N;$/;"	m	struct:__anon18	file:
+N	apps/sssp/sssp.cc	/^   int       N;$/;"	m	struct:__anon11	file:
+N	apps/sssp/sssp_outer.cc	/^   int       N;$/;"	m	struct:__anon10	file:
+N	apps/sssp/sssp_outer_atomic.cc	/^   int       N;$/;"	m	struct:__anon12	file:
+N	apps/triangle_counting/sorted_neighbors_tri_lock.cc	/^   int       N;$/;"	m	struct:__anon8	file:
+N	apps/triangle_counting/triangle_counting_atomic.cc	/^   int       N;$/;"	m	struct:__anon7	file:
+N	apps/triangle_counting/triangle_counting_lock.cc	/^   int       N;$/;"	m	struct:__anon9	file:
+OBJECTS	docs/Graphite/Makefile	/^OBJECTS := $(TARGET).o$/;"	m
+P	apps/apsp/apsp.cc	/^   int       P;$/;"	m	struct:__anon1	file:
+P	apps/bc/bc.cc	/^   int       P;$/;"	m	struct:__anon6	file:
+P	apps/bc/bc_non_partitioned.cc	/^   int       P;$/;"	m	struct:__anon5	file:
+P	apps/bfs/bfs.cc	/^   int       P;$/;"	m	struct:__anon4	file:
+P	apps/bfs/bfs_atomic.cc	/^   int       P;$/;"	m	struct:__anon3	file:
+P	apps/community/community_atomic.cc	/^   int         P;                    \/\/MAX threads$/;"	m	struct:__anon13	file:
+P	apps/community/community_lock.cc	/^   int         P;                    \/\/MAX threads$/;"	m	struct:__anon14	file:
+P	apps/connected_components/connected_components_atomic.cc	/^   int       P;$/;"	m	struct:__anon15	file:
+P	apps/connected_components/connected_components_lock.cc	/^   int       P;$/;"	m	struct:__anon16	file:
+P	apps/dfs/dfs.cc	/^   int       P;$/;"	m	struct:__anon2	file:
+P	apps/pagerank/pagerank.cc	/^   int       P;$/;"	m	struct:__anon17	file:
+P	apps/pagerank/pagerank_lock.cc	/^   int       P;$/;"	m	struct:__anon18	file:
+P	apps/sssp/sssp.cc	/^   int       P;$/;"	m	struct:__anon11	file:
+P	apps/sssp/sssp_outer.cc	/^   int       P;$/;"	m	struct:__anon10	file:
+P	apps/sssp/sssp_outer_atomic.cc	/^   int       P;$/;"	m	struct:__anon12	file:
+P	apps/triangle_counting/sorted_neighbors_tri_lock.cc	/^   int       P;$/;"	m	struct:__anon8	file:
+P	apps/triangle_counting/triangle_counting_atomic.cc	/^   int       P;$/;"	m	struct:__anon7	file:
+P	apps/triangle_counting/triangle_counting_lock.cc	/^   int       P;$/;"	m	struct:__anon9	file:
+PMAX	common/barrier.h	/^int PMAX=0;$/;"	v
+PR	apps/pagerank/pagerank.cc	/^   double*   PR;$/;"	m	struct:__anon17	file:
+PR	apps/pagerank/pagerank_lock.cc	/^   double*   PR;$/;"	m	struct:__anon18	file:
+P_global	apps/apsp/apsp.cc	/^int P_global = 256;$/;"	v
+P_global	apps/bc/bc.cc	/^int P_global = 256;  $/;"	v
+P_global	apps/bc/bc_non_partitioned.cc	/^int P_global = 256;  $/;"	v
+P_global	apps/bfs/bfs.cc	/^int P_global = 256;$/;"	v
+P_global	apps/bfs/bfs_atomic.cc	/^int P_global = 256;$/;"	v
+P_global	apps/community/community_atomic.cc	/^int P_global = 256;$/;"	v
+P_global	apps/community/community_lock.cc	/^int P_global = 256;$/;"	v
+P_global	apps/connected_components/connected_components_atomic.cc	/^int P_global = 256;$/;"	v
+P_global	apps/connected_components/connected_components_lock.cc	/^int P_global = 256;$/;"	v
+P_global	apps/dfs/dfs.cc	/^int P_global = 256;$/;"	v
+P_global	apps/triangle_counting/sorted_neighbors_tri_lock.cc	/^int P_global = 256;$/;"	v
+P_global	apps/triangle_counting/triangle_counting_atomic.cc	/^int P_global = 256;$/;"	v
+P_global	apps/triangle_counting/triangle_counting_lock.cc	/^int P_global = 256;$/;"	v
+P_max	apps/sssp/sssp.cc	/^int P_max=256;     \/\/Heuristic parameter. A lower value will result in incorrect distances$/;"	v
+P_max	apps/sssp/sssp_outer.cc	/^int P_max=64;$/;"	v
+P_max	apps/sssp/sssp_outer_atomic.cc	/^int P_max=64;$/;"	v
+PartialTour	apps/tsp/tsp.cc	/^   PartialTour::PartialTour(const PartialTour& tour)$/;"	f	class:PartialTour
+PartialTour	apps/tsp/tsp.cc	/^   PartialTour::PartialTour(int NUM_CITIES, int start_city)$/;"	f	class:PartialTour
+PartialTour	apps/tsp/tsp.cc	/^class PartialTour$/;"	c	file:
+Q	apps/apsp/apsp.cc	/^   int*      Q;$/;"	m	struct:__anon1	file:
+Q	apps/bc/bc.cc	/^   int*      Q;$/;"	m	struct:__anon6	file:
+Q	apps/bc/bc_non_partitioned.cc	/^   int*      Q;$/;"	m	struct:__anon5	file:
+Q	apps/bfs/bfs.cc	/^   int*      Q;$/;"	m	struct:__anon4	file:
+Q	apps/bfs/bfs_atomic.cc	/^   int*      Q;$/;"	m	struct:__anon3	file:
+Q	apps/community/community_atomic.cc	/^   float*      Q;$/;"	m	struct:__anon13	file:
+Q	apps/community/community_lock.cc	/^   float*      Q;$/;"	m	struct:__anon14	file:
+Q	apps/connected_components/connected_components_atomic.cc	/^   int*      Q;$/;"	m	struct:__anon15	file:
+Q	apps/connected_components/connected_components_lock.cc	/^   int*      Q;$/;"	m	struct:__anon16	file:
+Q	apps/dfs/dfs.cc	/^   int*      Q;$/;"	m	struct:__anon2	file:
+Q	apps/pagerank/pagerank.cc	/^   int*      Q;$/;"	m	struct:__anon17	file:
+Q	apps/sssp/sssp.cc	/^   int*      Q;$/;"	m	struct:__anon11	file:
+Q	apps/sssp/sssp_outer.cc	/^   int*      Q;$/;"	m	struct:__anon10	file:
+Q	apps/sssp/sssp_outer_atomic.cc	/^   int*      Q;$/;"	m	struct:__anon12	file:
+Q	apps/triangle_counting/sorted_neighbors_tri_lock.cc	/^   int*      Q;$/;"	m	struct:__anon8	file:
+Q	apps/triangle_counting/triangle_counting_atomic.cc	/^   int*      Q;$/;"	m	struct:__anon7	file:
+Q	apps/triangle_counting/triangle_counting_lock.cc	/^   int*      Q;$/;"	m	struct:__anon9	file:
+SIZE	docs/Graphite/Makefile	/^SIZE ?= 16384$/;"	m
+SUBDIRS	Makefile	/^SUBDIRS= apsp bc sssp community connected_components dfs bfs pagerank triangle_counting tsp$/;"	m
+TARGET	docs/Graphite/Makefile	/^TARGET := apsp$/;"	m
+THREADS	docs/Graphite/Makefile	/^THREADS ?= 8$/;"	m
+TRGS	apps/apsp/Makefile	/^TRGS = apsp$/;"	m
+TRGS	apps/bc/Makefile	/^TRGS = bc bc_non_partitioned$/;"	m
+TRGS	apps/bfs/Makefile	/^TRGS = bfs bfs_atomic$/;"	m
+TRGS	apps/community/Makefile	/^TRGS = community_lock community_atomic$/;"	m
+TRGS	apps/connected_components/Makefile	/^TRGS = connected_components_lock connected_components_atomic$/;"	m
+TRGS	apps/dfs/Makefile	/^TRGS = dfs$/;"	m
+TRGS	apps/pagerank/Makefile	/^TRGS = pagerank pagerank_lock$/;"	m
+TRGS	apps/sssp/Makefile	/^TRGS = sssp sssp_outer sssp_outer_atomic$/;"	m
+TRGS	apps/triangle_counting/Makefile	/^TRGS = triangle_counting_lock triangle_counting_atomic sorted_neighbors_tri_lock $/;"	m
+TRGS	apps/tsp/Makefile	/^TRGS = tsp$/;"	m
+ThreadData	apps/tsp/tsp.cc	/^   ThreadData::ThreadData(int tid, WorkQueue& work_queue, int NUM_CITIES)$/;"	f	class:ThreadData
+ThreadData	apps/tsp/tsp.cc	/^class ThreadData$/;"	c	file:
+Total	apps/bfs/bfs.cc	/^int Total = 0;$/;"	v
+Total	apps/bfs/bfs_atomic.cc	/^int Total = 0;$/;"	v
+Total	apps/dfs/dfs.cc	/^int Total = 0;$/;"	v
+Total_Tri	apps/triangle_counting/sorted_neighbors_tri_lock.cc	/^int Total_Tri = -1.0;                 \/\/Stores total triangles$/;"	v
+Total_Tri	apps/triangle_counting/triangle_counting_atomic.cc	/^double Total_Tri = 0;                 \/\/Stores total triangles$/;"	v
+Total_Tri	apps/triangle_counting/triangle_counting_lock.cc	/^double Total_Tri = 0;                 \/\/Stores total triangles$/;"	v
+Total_tid	apps/triangle_counting/sorted_neighbors_tri_lock.cc	/^int Total_tid[1024] = {0};           \/\/To store triangles per thread$/;"	v
+Total_tid	apps/triangle_counting/triangle_counting_atomic.cc	/^double Total_tid[1024] = {0};           \/\/To store triangles per thread$/;"	v
+Total_tid	apps/triangle_counting/triangle_counting_lock.cc	/^double Total_tid[1024] = {0};           \/\/To store triangles per thread$/;"	v
+W	apps/apsp/apsp.cc	/^   int**     W;$/;"	m	struct:__anon1	file:
+W	apps/bc/bc.cc	/^   int**     W;$/;"	m	struct:__anon6	file:
+W	apps/bc/bc_non_partitioned.cc	/^   int**     W;$/;"	m	struct:__anon5	file:
+W	apps/pagerank/pagerank.cc	/^   double**  W;$/;"	m	struct:__anon17	file:
+W	apps/pagerank/pagerank_lock.cc	/^   double**  W;$/;"	m	struct:__anon18	file:
+W	apps/sssp/sssp.cc	/^   int**     W;$/;"	m	struct:__anon11	file:
+W	apps/sssp/sssp_outer.cc	/^   int**     W;$/;"	m	struct:__anon10	file:
+W	apps/sssp/sssp_outer_atomic.cc	/^   int**     W;$/;"	m	struct:__anon12	file:
+W	common/mtx.h	/^int **W;          \/\/Weights$/;"	v
+W_f	apps/community/community_atomic.cc	/^   int**     W_f;                  \/\/Graph edge weights, forced casted to int due to atomics$/;"	m	struct:__anon13	file:
+W_f	apps/community/community_atomic.cc	/^int** W_f;                                     \/\/Weights$/;"	v
+W_f	apps/community/community_lock.cc	/^   float**     W_f;                  \/\/Graph edge weights$/;"	m	struct:__anon14	file:
+W_f	apps/community/community_lock.cc	/^float** W_f;                                     \/\/Weights$/;"	v
+W_index	apps/apsp/apsp.cc	/^   int**     W_index;$/;"	m	struct:__anon1	file:
+W_index	apps/bc/bc.cc	/^   int**     W_index;$/;"	m	struct:__anon6	file:
+W_index	apps/bc/bc_non_partitioned.cc	/^   int**     W_index;$/;"	m	struct:__anon5	file:
+W_index	apps/bfs/bfs.cc	/^   int**     W_index;$/;"	m	struct:__anon4	file:
+W_index	apps/bfs/bfs_atomic.cc	/^   int**     W_index;$/;"	m	struct:__anon3	file:
+W_index	apps/community/community_atomic.cc	/^   int**       W_index;              \/\/Graph edge connections$/;"	m	struct:__anon13	file:
+W_index	apps/community/community_lock.cc	/^   int**       W_index;              \/\/Graph edge connections$/;"	m	struct:__anon14	file:
+W_index	apps/connected_components/connected_components_atomic.cc	/^   int**     W_index;$/;"	m	struct:__anon15	file:
+W_index	apps/connected_components/connected_components_lock.cc	/^   int**     W_index;$/;"	m	struct:__anon16	file:
+W_index	apps/dfs/dfs.cc	/^   int**     W_index;$/;"	m	struct:__anon2	file:
+W_index	apps/pagerank/pagerank.cc	/^   int**     W_index;$/;"	m	struct:__anon17	file:
+W_index	apps/pagerank/pagerank_lock.cc	/^   int**     W_index;$/;"	m	struct:__anon18	file:
+W_index	apps/sssp/sssp.cc	/^   int**     W_index;$/;"	m	struct:__anon11	file:
+W_index	apps/sssp/sssp_outer.cc	/^   int**     W_index;$/;"	m	struct:__anon10	file:
+W_index	apps/sssp/sssp_outer_atomic.cc	/^   int**     W_index;$/;"	m	struct:__anon12	file:
+W_index	apps/triangle_counting/sorted_neighbors_tri_lock.cc	/^   int**     W_index;$/;"	m	struct:__anon8	file:
+W_index	apps/triangle_counting/triangle_counting_atomic.cc	/^   int**     W_index;$/;"	m	struct:__anon7	file:
+W_index	apps/triangle_counting/triangle_counting_lock.cc	/^   int**     W_index;$/;"	m	struct:__anon9	file:
+W_index	common/mtx.h	/^int **W_index;    \/\/Edges$/;"	v
+WorkQueue	apps/tsp/tsp.cc	/^typedef list<PartialTour*> WorkQueue;$/;"	t	file:
+_NUM_CITIES	apps/tsp/tsp.cc	/^      int _NUM_CITIES;$/;"	m	class:ThreadData	file:
+_WEIGHTS	apps/tsp/tsp.cc	/^int _WEIGHTS[5][5] = {$/;"	v
+_best_tid	apps/tsp/tsp.cc	/^int _best_tid;$/;"	v
+_best_tour	apps/tsp/tsp.cc	/^      PartialTour* _best_tour;$/;"	m	class:ThreadData	file:
+_best_tour_cost	apps/tsp/tsp.cc	/^int _best_tour_cost ;$/;"	v
+_cost	apps/tsp/tsp.cc	/^      int _cost;$/;"	m	class:PartialTour	file:
+_length	apps/tsp/tsp.cc	/^      int _length;$/;"	m	class:PartialTour	file:
+_lock	apps/tsp/tsp.cc	/^pthread_mutex_t _lock;$/;"	v
+_path	apps/tsp/tsp.cc	/^      vector<int> _path;$/;"	m	class:PartialTour	file:
+_tid	apps/tsp/tsp.cc	/^      int _tid;$/;"	m	class:ThreadData	file:
+_unvisited	apps/tsp/tsp.cc	/^      vector<int> _unvisited;$/;"	m	class:PartialTour	file:
+_weights	apps/tsp/tsp.cc	/^int** _weights;$/;"	v
+_work_queue	apps/tsp/tsp.cc	/^      WorkQueue& _work_queue;$/;"	m	class:ThreadData	file:
+addCity	apps/tsp/tsp.cc	/^PartialTour::addCity(int idx)$/;"	f	class:PartialTour
+avg	apps/bc/bc.cc	/^int* avg;          \/\/avg shortest paths passing$/;"	v
+avg	apps/bc/bc_non_partitioned.cc	/^int* avg;          \/\/avg shortest paths passing$/;"	v
+avg_deg	apps/dfs/dfs.cc	/^int avg_deg = 0;$/;"	v
+bar	common/barrier.h	/^int bar=0;$/;"	v
+barrier	apps/apsp/apsp.cc	/^   pthread_barrier_t* barrier;$/;"	m	struct:__anon1	file:
+barrier	apps/bc/bc.cc	/^   pthread_barrier_t* barrier;$/;"	m	struct:__anon6	file:
+barrier	apps/bc/bc_non_partitioned.cc	/^   pthread_barrier_t* barrier;$/;"	m	struct:__anon5	file:
+barrier	apps/bfs/bfs.cc	/^   pthread_barrier_t* barrier;$/;"	m	struct:__anon4	file:
+barrier	apps/bfs/bfs_atomic.cc	/^   pthread_barrier_t* barrier;$/;"	m	struct:__anon3	file:
+barrier	apps/community/community_atomic.cc	/^   pthread_barrier_t* barrier;$/;"	m	struct:__anon13	file:
+barrier	apps/community/community_lock.cc	/^   pthread_barrier_t* barrier;$/;"	m	struct:__anon14	file:
+barrier	apps/connected_components/connected_components_atomic.cc	/^   pthread_barrier_t* barrier;$/;"	m	struct:__anon15	file:
+barrier	apps/connected_components/connected_components_lock.cc	/^   pthread_barrier_t* barrier;$/;"	m	struct:__anon16	file:
+barrier	apps/dfs/dfs.cc	/^   pthread_barrier_t* barrier;$/;"	m	struct:__anon2	file:
+barrier	apps/pagerank/pagerank.cc	/^   pthread_barrier_t* barrier;$/;"	m	struct:__anon17	file:
+barrier	apps/pagerank/pagerank_lock.cc	/^   pthread_barrier_t* barrier;$/;"	m	struct:__anon18	file:
+barrier	apps/sssp/sssp.cc	/^   pthread_barrier_t* barrier;$/;"	m	struct:__anon11	file:
+barrier	apps/sssp/sssp_outer.cc	/^   pthread_barrier_t* barrier;$/;"	m	struct:__anon10	file:
+barrier	apps/sssp/sssp_outer_atomic.cc	/^   pthread_barrier_t* barrier;$/;"	m	struct:__anon12	file:
+barrier	apps/triangle_counting/sorted_neighbors_tri_lock.cc	/^   pthread_barrier_t* barrier;$/;"	m	struct:__anon8	file:
+barrier	apps/triangle_counting/triangle_counting_atomic.cc	/^   pthread_barrier_t* barrier;$/;"	m	struct:__anon7	file:
+barrier	apps/triangle_counting/triangle_counting_lock.cc	/^   pthread_barrier_t* barrier;$/;"	m	struct:__anon9	file:
+barrier_total	apps/apsp/apsp.cc	/^   pthread_barrier_t* barrier_total;$/;"	m	struct:__anon1	file:
+barrier_total	apps/bc/bc.cc	/^   pthread_barrier_t* barrier_total;$/;"	m	struct:__anon6	file:
+barrier_total	apps/bc/bc_non_partitioned.cc	/^   pthread_barrier_t* barrier_total;$/;"	m	struct:__anon5	file:
+barrier_total	apps/bfs/bfs.cc	/^   pthread_barrier_t* barrier_total;$/;"	m	struct:__anon4	file:
+barrier_total	apps/bfs/bfs_atomic.cc	/^   pthread_barrier_t* barrier_total;$/;"	m	struct:__anon3	file:
+barrier_total	apps/community/community_atomic.cc	/^   pthread_barrier_t* barrier_total;$/;"	m	struct:__anon13	file:
+barrier_total	apps/community/community_lock.cc	/^   pthread_barrier_t* barrier_total;$/;"	m	struct:__anon14	file:
+barrier_total	apps/connected_components/connected_components_atomic.cc	/^   pthread_barrier_t* barrier_total;$/;"	m	struct:__anon15	file:
+barrier_total	apps/connected_components/connected_components_lock.cc	/^   pthread_barrier_t* barrier_total;$/;"	m	struct:__anon16	file:
+barrier_total	apps/dfs/dfs.cc	/^   pthread_barrier_t* barrier_total;$/;"	m	struct:__anon2	file:
+barrier_total	apps/triangle_counting/sorted_neighbors_tri_lock.cc	/^   pthread_barrier_t* barrier_total;$/;"	m	struct:__anon8	file:
+barrier_total	apps/triangle_counting/triangle_counting_atomic.cc	/^   pthread_barrier_t* barrier_total;$/;"	m	struct:__anon7	file:
+barrier_total	apps/triangle_counting/triangle_counting_lock.cc	/^   pthread_barrier_t* barrier_total;$/;"	m	struct:__anon9	file:
+barrier_wait	common/barrier.h	/^void barrier_wait()$/;"	f
+change	apps/connected_components/connected_components_atomic.cc	/^int change = 0;$/;"	v
+change	apps/connected_components/connected_components_lock.cc	/^int change = 0;$/;"	v
+cntr	apps/sssp/sssp_outer.cc	/^int cntr = 0;$/;"	v
+cntr	apps/sssp/sssp_outer_atomic.cc	/^int cntr = 0;$/;"	v
+comm	apps/community/community_atomic.cc	/^   int*        comm;                 \/\/Community data structure$/;"	m	struct:__anon13	file:
+comm	apps/community/community_lock.cc	/^   int*        comm;                 \/\/Community data structure$/;"	m	struct:__anon14	file:
+conv_file	common/mtx.h	/^const char *conv_file;$/;"	v
+d_count	apps/apsp/apsp.cc	/^   int*      d_count;$/;"	m	struct:__anon1	file:
+d_count	apps/bc/bc.cc	/^   int*      d_count;$/;"	m	struct:__anon6	file:
+d_count	apps/bc/bc_non_partitioned.cc	/^   int*      d_count;$/;"	m	struct:__anon5	file:
+d_count	apps/bfs/bfs.cc	/^   int*      d_count;$/;"	m	struct:__anon4	file:
+d_count	apps/bfs/bfs_atomic.cc	/^   int*      d_count;$/;"	m	struct:__anon3	file:
+d_count	apps/community/community_atomic.cc	/^   int*        d_count;$/;"	m	struct:__anon13	file:
+d_count	apps/community/community_lock.cc	/^   int*        d_count;$/;"	m	struct:__anon14	file:
+d_count	apps/connected_components/connected_components_atomic.cc	/^   int*      d_count;$/;"	m	struct:__anon15	file:
+d_count	apps/connected_components/connected_components_lock.cc	/^   int*      d_count;$/;"	m	struct:__anon16	file:
+d_count	apps/dfs/dfs.cc	/^   int*      d_count;$/;"	m	struct:__anon2	file:
+d_count	apps/sssp/sssp.cc	/^   int*      d_count;$/;"	m	struct:__anon11	file:
+d_count	apps/sssp/sssp_outer.cc	/^   int*      d_count;$/;"	m	struct:__anon10	file:
+d_count	apps/sssp/sssp_outer_atomic.cc	/^   int*      d_count;$/;"	m	struct:__anon12	file:
+d_count	apps/triangle_counting/sorted_neighbors_tri_lock.cc	/^   int*      d_count;$/;"	m	struct:__anon8	file:
+d_count	apps/triangle_counting/triangle_counting_atomic.cc	/^   int*      d_count;$/;"	m	struct:__anon7	file:
+d_count	apps/triangle_counting/triangle_counting_lock.cc	/^   int*      d_count;$/;"	m	struct:__anon9	file:
+dangling	apps/pagerank/pagerank.cc	/^int *dangling;$/;"	v
+dangling	apps/pagerank/pagerank_lock.cc	/^int *dangling;$/;"	v
+degree	common/mtx.h	/^int degree=0;     \/\/Initialize Maximum Degree$/;"	v
+delta	apps/bc/bc.cc	/^double* delta;     \/\/centralities$/;"	v
+delta	apps/bc/bc_non_partitioned.cc	/^double* delta;     \/\/centralities$/;"	v
+difference	apps/sssp/sssp.cc	/^int difference=0;$/;"	v
+dividePartialTours	apps/tsp/tsp.cc	/^dividePartialTours(const vector<PartialTour*>& partial_tour_vec, vector<WorkQueue>& work_queue_vec)$/;"	f
+doWork	apps/tsp/tsp.cc	/^doWork(int tid, WorkQueue& work_queue, PartialTour* tour, PartialTour* best_tour, int NUM_CITIES)$/;"	f
+do_work	apps/apsp/apsp.cc	/^void* do_work(void* args)$/;"	f
+do_work	apps/bc/bc.cc	/^void* do_work(void* args)$/;"	f
+do_work	apps/bc/bc_non_partitioned.cc	/^void* do_work(void* args)$/;"	f
+do_work	apps/bfs/bfs.cc	/^void* do_work(void* args)$/;"	f
+do_work	apps/bfs/bfs_atomic.cc	/^void* do_work(void* args)$/;"	f
+do_work	apps/community/community_atomic.cc	/^void* do_work(void* args)$/;"	f
+do_work	apps/community/community_lock.cc	/^void* do_work(void* args)$/;"	f
+do_work	apps/connected_components/connected_components_atomic.cc	/^void* do_work(void* args)$/;"	f
+do_work	apps/connected_components/connected_components_lock.cc	/^void* do_work(void* args)$/;"	f
+do_work	apps/dfs/dfs.cc	/^void* do_work(void* args)$/;"	f
+do_work	apps/pagerank/pagerank.cc	/^void* do_work(void* args)$/;"	f
+do_work	apps/pagerank/pagerank_lock.cc	/^void* do_work(void* args)$/;"	f
+do_work	apps/sssp/sssp.cc	/^void* do_work(void* args)$/;"	f
+do_work	apps/sssp/sssp_outer.cc	/^void* do_work(void* args)$/;"	f
+do_work	apps/sssp/sssp_outer_atomic.cc	/^void* do_work(void* args)$/;"	f
+do_work	apps/triangle_counting/sorted_neighbors_tri_lock.cc	/^void* do_work(void* args)$/;"	f
+do_work	apps/triangle_counting/triangle_counting_atomic.cc	/^void* do_work(void* args)$/;"	f
+do_work	apps/triangle_counting/triangle_counting_lock.cc	/^void* do_work(void* args)$/;"	f
+dp	apps/pagerank/pagerank.cc	/^double dp = 0;      \/\/dangling pointer variable$/;"	v
+dp	apps/pagerank/pagerank_lock.cc	/^double dp = 0;      \/\/dangling pointer variable$/;"	v
+dp_tid	apps/pagerank/pagerank.cc	/^double dp_tid[1024];            \/\/dangling pages for each thread, reduced later by locks$/;"	v
+dp_tid	apps/pagerank/pagerank_lock.cc	/^double dp_tid[1024];            \/\/dangling pages for each thread, reduced later by locks$/;"	v
+edges	apps/bfs/bfs.cc	/^int *edges;                        \/\/deg of a given vertex$/;"	v
+edges	apps/bfs/bfs_atomic.cc	/^int *edges;                       \/\/deg of a given vertex$/;"	v
+edges	apps/dfs/dfs.cc	/^int *edges;                       \/\/deg of a given vertex$/;"	v
+edges	common/mtx.h	/^int *edges;       \/\/Edges for each vertex$/;"	v
+exist	apps/bfs/bfs.cc	/^int *exist;                        \/\/whether vertex in graph$/;"	v
+exist	apps/bfs/bfs_atomic.cc	/^int *exist;                      \/\/whether vertex in graph$/;"	v
+exist	apps/dfs/dfs.cc	/^int *exist;                      \/\/whether vertex in graph$/;"	v
+exist	apps/pagerank/pagerank.cc	/^int *exist;$/;"	v
+exist	apps/pagerank/pagerank_lock.cc	/^int *exist;$/;"	v
+exist	apps/sssp/sssp.cc	/^int *exist;$/;"	v
+exist	apps/sssp/sssp_outer.cc	/^int *exist;$/;"	v
+exist	apps/sssp/sssp_outer_atomic.cc	/^int *exist;$/;"	v
+exist	common/mtx.h	/^int *exist;       \/\/Wherther the vertex exists in the graph$/;"	v
+generatePartialTours	apps/tsp/tsp.cc	/^generatePartialTours(PartialTour* tour, int num_levels, vector<PartialTour*>& partial_tour_vec)$/;"	f
+getBestTour	apps/tsp/tsp.cc	/^      PartialTour* getBestTour()  { return _best_tour;  }$/;"	f	class:ThreadData
+getCost	apps/tsp/tsp.cc	/^      int getCost() const                       { return _cost;       }$/;"	f	class:PartialTour
+getLength	apps/tsp/tsp.cc	/^      int getLength() const                     { return _length;     }$/;"	f	class:PartialTour
+getNumCities	apps/tsp/tsp.cc	/^      int getNumCities() const    { return _NUM_CITIES; }$/;"	f	class:ThreadData
+getNumLevels	apps/tsp/tsp.cc	/^getNumLevels(int NUM_THREADS, int NUM_CITIES)$/;"	f
+getPath	apps/tsp/tsp.cc	/^      const vector<int>& getPath() const        { return _path;       }$/;"	f	class:PartialTour
+getPath	apps/tsp/tsp.cc	/^      vector<int>& getPath()                    { return _path;       }$/;"	f	class:PartialTour
+getTid	apps/tsp/tsp.cc	/^      int getTid() const          { return _tid; }$/;"	f	class:ThreadData
+getUnvisited	apps/tsp/tsp.cc	/^      const vector<int>& getUnvisited() const   { return _unvisited;  }$/;"	f	class:PartialTour
+getUnvisited	apps/tsp/tsp.cc	/^      vector<int>& getUnvisited()               { return _unvisited;  }$/;"	f	class:PartialTour
+getWorkQueue	apps/tsp/tsp.cc	/^      WorkQueue& getWorkQueue()   { return _work_queue; }$/;"	f	class:ThreadData
+get_local_min	apps/apsp/apsp.cc	/^int get_local_min(volatile int* Q, volatile int* D, int start, int stop, int N, int** W_index, int** W, int u)$/;"	f
+get_local_min	apps/bc/bc.cc	/^int get_local_min(volatile int* Q, volatile int* D, int start, int stop, int N, int** W_index, int** W, int u)$/;"	f
+get_local_min	apps/bc/bc_non_partitioned.cc	/^int get_local_min(volatile int* Q, volatile int* D, int start, int stop, int N, int** W_index, int** W, int u)$/;"	f
+get_local_min	apps/sssp/sssp.cc	/^int get_local_min(volatile int* Q, volatile int* D, int start, int stop, int N, int** W_index, int** W, int u)$/;"	f
+get_local_min	apps/sssp/sssp_outer.cc	/^int get_local_min(volatile int* Q, volatile int* D, int start, int stop, int N, int** W_index, int** W, int u)$/;"	f
+get_local_min	apps/sssp/sssp_outer_atomic.cc	/^int get_local_min(volatile int* Q, volatile int* D, int start, int stop, int N, int** W_index, int** W, int u)$/;"	f
+global_min	apps/apsp/apsp.cc	/^   int*      global_min;$/;"	m	struct:__anon1	file:
+global_min	apps/bc/bc.cc	/^   int*      global_min;$/;"	m	struct:__anon6	file:
+global_min	apps/bc/bc_non_partitioned.cc	/^   int*      global_min;$/;"	m	struct:__anon5	file:
+global_min	apps/bfs/bfs.cc	/^   int*      global_min;$/;"	m	struct:__anon4	file:
+global_min	apps/bfs/bfs_atomic.cc	/^   int*      global_min;$/;"	m	struct:__anon3	file:
+global_min	apps/connected_components/connected_components_atomic.cc	/^   int*      global_min;$/;"	m	struct:__anon15	file:
+global_min	apps/connected_components/connected_components_lock.cc	/^   int*      global_min;$/;"	m	struct:__anon16	file:
+global_min	apps/dfs/dfs.cc	/^   int*      global_min;$/;"	m	struct:__anon2	file:
+global_min	apps/pagerank/pagerank.cc	/^   int*      global_min;$/;"	m	struct:__anon17	file:
+global_min	apps/sssp/sssp.cc	/^   int*      global_min;$/;"	m	struct:__anon11	file:
+global_min	apps/sssp/sssp_outer.cc	/^   int*      global_min;$/;"	m	struct:__anon10	file:
+global_min	apps/sssp/sssp_outer_atomic.cc	/^   int*      global_min;$/;"	m	struct:__anon12	file:
+global_min	apps/triangle_counting/sorted_neighbors_tri_lock.cc	/^   int*      global_min;$/;"	m	struct:__anon8	file:
+global_min	apps/triangle_counting/triangle_counting_atomic.cc	/^   int*      global_min;$/;"	m	struct:__anon7	file:
+global_min	apps/triangle_counting/triangle_counting_lock.cc	/^   int*      global_min;$/;"	m	struct:__anon9	file:
+global_min_buffer	apps/apsp/apsp.cc	/^int global_min_buffer;$/;"	v
+global_min_buffer	apps/bc/bc.cc	/^int global_min_buffer;$/;"	v
+global_min_buffer	apps/bc/bc_non_partitioned.cc	/^int global_min_buffer;$/;"	v
+global_min_buffer	apps/bfs/bfs.cc	/^int global_min_buffer;$/;"	v
+global_min_buffer	apps/bfs/bfs_atomic.cc	/^int global_min_buffer;$/;"	v
+global_min_buffer	apps/connected_components/connected_components_atomic.cc	/^int global_min_buffer;$/;"	v
+global_min_buffer	apps/connected_components/connected_components_lock.cc	/^int global_min_buffer;$/;"	v
+global_min_buffer	apps/dfs/dfs.cc	/^int global_min_buffer;$/;"	v
+global_min_buffer	apps/pagerank/pagerank.cc	/^int global_min_buffer;$/;"	v
+global_min_buffer	apps/sssp/sssp.cc	/^int global_min_buffer;$/;"	v
+global_min_buffer	apps/sssp/sssp_outer.cc	/^int global_min_buffer;$/;"	v
+global_min_buffer	apps/sssp/sssp_outer_atomic.cc	/^int global_min_buffer;$/;"	v
+global_min_buffer	apps/triangle_counting/sorted_neighbors_tri_lock.cc	/^int global_min_buffer;$/;"	v
+global_min_buffer	apps/triangle_counting/triangle_counting_atomic.cc	/^int global_min_buffer;$/;"	v
+global_min_buffer	apps/triangle_counting/triangle_counting_lock.cc	/^int global_min_buffer;$/;"	v
+id	apps/sssp/sssp.cc	/^int *id;$/;"	v
+id	apps/sssp/sssp_outer.cc	/^int *id;$/;"	v
+id	apps/sssp/sssp_outer_atomic.cc	/^int *id;$/;"	v
+initCities	apps/tsp/tsp.cc	/^void initCities(int NUM_CITIES)$/;"	f
+init_weights	apps/apsp/apsp.cc	/^void init_weights(int N, int DEG, int** W, int** W_index)$/;"	f
+init_weights	apps/bc/bc.cc	/^void init_weights(int N, int DEG, int** W, int** W_index)$/;"	f
+init_weights	apps/bc/bc_non_partitioned.cc	/^void init_weights(int N, int DEG, int** W, int** W_index)$/;"	f
+init_weights	apps/bfs/bfs.cc	/^void init_weights(int N, int DEG, int** W, int** W_index)$/;"	f
+init_weights	apps/bfs/bfs_atomic.cc	/^void init_weights(int N, int DEG, int** W, int** W_index)$/;"	f
+init_weights	apps/community/community_atomic.cc	/^void init_weights(int N, int DEG, int** W_f, int** W_index)$/;"	f
+init_weights	apps/community/community_lock.cc	/^void init_weights(int N, int DEG, float** W_f, int** W_index)$/;"	f
+init_weights	apps/connected_components/connected_components_atomic.cc	/^void init_weights(int N, int DEG, int** W, int** W_index)$/;"	f
+init_weights	apps/connected_components/connected_components_lock.cc	/^void init_weights(int N, int DEG, int** W, int** W_index)$/;"	f
+init_weights	apps/dfs/dfs.cc	/^void init_weights(int N, int DEG, int** W, int** W_index)$/;"	f
+init_weights	apps/pagerank/pagerank.cc	/^void init_weights(int N, int DEG, double** W, int** W_index)$/;"	f
+init_weights	apps/pagerank/pagerank_lock.cc	/^void init_weights(int N, int DEG, double** W, int** W_index)$/;"	f
+init_weights	apps/sssp/sssp.cc	/^void init_weights(int N, int DEG, int** W, int** W_index)$/;"	f
+init_weights	apps/sssp/sssp_outer.cc	/^void init_weights(int N, int DEG, int** W, int** W_index)$/;"	f
+init_weights	apps/sssp/sssp_outer_atomic.cc	/^void init_weights(int N, int DEG, int** W, int** W_index)$/;"	f
+init_weights	apps/triangle_counting/sorted_neighbors_tri_lock.cc	/^void init_weights(int N, int DEG, int** W, int** W_index)$/;"	f
+init_weights	apps/triangle_counting/triangle_counting_atomic.cc	/^void init_weights(int N, int DEG, int** W, int** W_index)$/;"	f
+init_weights	apps/triangle_counting/triangle_counting_lock.cc	/^void init_weights(int N, int DEG, int** W, int** W_index)$/;"	f
+initialize_single_source	apps/apsp/apsp.cc	/^int initialize_single_source(int*  D,$/;"	f
+initialize_single_source	apps/bc/bc.cc	/^int initialize_single_source(int*  D,$/;"	f
+initialize_single_source	apps/bc/bc_non_partitioned.cc	/^int initialize_single_source(int*  D,$/;"	f
+initialize_single_source	apps/bfs/bfs.cc	/^int initialize_single_source(int*  D,$/;"	f
+initialize_single_source	apps/bfs/bfs_atomic.cc	/^int initialize_single_source(int*  D,$/;"	f
+initialize_single_source	apps/community/community_atomic.cc	/^int initialize_single_source(int*  D,$/;"	f
+initialize_single_source	apps/community/community_lock.cc	/^int initialize_single_source(int*  D,$/;"	f
+initialize_single_source	apps/connected_components/connected_components_atomic.cc	/^int initialize_single_source(int*  D,$/;"	f
+initialize_single_source	apps/connected_components/connected_components_lock.cc	/^int initialize_single_source(int*  D,$/;"	f
+initialize_single_source	apps/dfs/dfs.cc	/^int initialize_single_source(int*  D,$/;"	f
+initialize_single_source	apps/pagerank/pagerank.cc	/^int initialize_single_source(double*  PR,$/;"	f
+initialize_single_source	apps/pagerank/pagerank_lock.cc	/^int initialize_single_source(double*  PR,$/;"	f
+initialize_single_source	apps/sssp/sssp.cc	/^int initialize_single_source(int*  D,$/;"	f
+initialize_single_source	apps/sssp/sssp_outer.cc	/^int initialize_single_source(int*  D,$/;"	f
+initialize_single_source	apps/sssp/sssp_outer_atomic.cc	/^int initialize_single_source(int*  D,$/;"	f
+initialize_single_source	apps/triangle_counting/sorted_neighbors_tri_lock.cc	/^int initialize_single_source(int*  D,$/;"	f
+initialize_single_source	apps/triangle_counting/triangle_counting_atomic.cc	/^int initialize_single_source(int*  D,$/;"	f
+initialize_single_source	apps/triangle_counting/triangle_counting_lock.cc	/^int initialize_single_source(int*  D,$/;"	f
+iterations	apps/community/community_atomic.cc	/^int iterations = 0;                            \/\/Iterations for community over the graph$/;"	v
+iterations	apps/community/community_lock.cc	/^int iterations = 0;                            \/\/Iterations for community over the graph$/;"	v
+largest	apps/bfs/bfs.cc	/^int largest=0;$/;"	v
+largest	apps/bfs/bfs_atomic.cc	/^int largest=0;$/;"	v
+largest	apps/dfs/dfs.cc	/^int largest=0;$/;"	v
+largest	common/mtx.h	/^int largest=0;    \/\/Largest Vertex in graph$/;"	v
+largest_d	apps/sssp/sssp_outer.cc	/^double largest_d;$/;"	v
+largest_d	apps/sssp/sssp_outer_atomic.cc	/^double largest_d;$/;"	v
+local_min	apps/apsp/apsp.cc	/^   int*      local_min;$/;"	m	struct:__anon1	file:
+local_min	apps/bc/bc.cc	/^   int*      local_min;$/;"	m	struct:__anon6	file:
+local_min	apps/bc/bc_non_partitioned.cc	/^   int*      local_min;$/;"	m	struct:__anon5	file:
+local_min	apps/bfs/bfs.cc	/^   int*      local_min;$/;"	m	struct:__anon4	file:
+local_min	apps/bfs/bfs_atomic.cc	/^   int*      local_min;$/;"	m	struct:__anon3	file:
+local_min	apps/connected_components/connected_components_atomic.cc	/^   int*      local_min;$/;"	m	struct:__anon15	file:
+local_min	apps/connected_components/connected_components_lock.cc	/^   int*      local_min;$/;"	m	struct:__anon16	file:
+local_min	apps/dfs/dfs.cc	/^   int*      local_min;$/;"	m	struct:__anon2	file:
+local_min	apps/pagerank/pagerank.cc	/^   int*      local_min;$/;"	m	struct:__anon17	file:
+local_min	apps/sssp/sssp.cc	/^   int*      local_min;$/;"	m	struct:__anon11	file:
+local_min	apps/sssp/sssp_outer.cc	/^   int*      local_min;$/;"	m	struct:__anon10	file:
+local_min	apps/sssp/sssp_outer_atomic.cc	/^   int*      local_min;$/;"	m	struct:__anon12	file:
+local_min	apps/triangle_counting/sorted_neighbors_tri_lock.cc	/^   int*      local_min;$/;"	m	struct:__anon8	file:
+local_min	apps/triangle_counting/triangle_counting_atomic.cc	/^   int*      local_min;$/;"	m	struct:__anon7	file:
+local_min	apps/triangle_counting/triangle_counting_lock.cc	/^   int*      local_min;$/;"	m	struct:__anon9	file:
+local_min_buffer	apps/apsp/apsp.cc	/^int local_min_buffer[1024];$/;"	v
+local_min_buffer	apps/bc/bc.cc	/^int local_min_buffer[1024];$/;"	v
+local_min_buffer	apps/bc/bc_non_partitioned.cc	/^int local_min_buffer[1024];$/;"	v
+local_min_buffer	apps/bfs/bfs.cc	/^int local_min_buffer[1024];$/;"	v
+local_min_buffer	apps/bfs/bfs_atomic.cc	/^int local_min_buffer[1024];$/;"	v
+local_min_buffer	apps/connected_components/connected_components_atomic.cc	/^int local_min_buffer[1024];$/;"	v
+local_min_buffer	apps/connected_components/connected_components_lock.cc	/^int local_min_buffer[1024];$/;"	v
+local_min_buffer	apps/dfs/dfs.cc	/^int local_min_buffer[1024];$/;"	v
+local_min_buffer	apps/pagerank/pagerank.cc	/^int local_min_buffer[1024];$/;"	v
+local_min_buffer	apps/sssp/sssp.cc	/^int local_min_buffer[1024];$/;"	v
+local_min_buffer	apps/sssp/sssp_outer.cc	/^int local_min_buffer[1024];$/;"	v
+local_min_buffer	apps/sssp/sssp_outer_atomic.cc	/^int local_min_buffer[1024];$/;"	v
+local_min_buffer	apps/triangle_counting/sorted_neighbors_tri_lock.cc	/^int local_min_buffer[1024];$/;"	v
+local_min_buffer	apps/triangle_counting/triangle_counting_atomic.cc	/^int local_min_buffer[1024];$/;"	v
+local_min_buffer	apps/triangle_counting/triangle_counting_lock.cc	/^int local_min_buffer[1024];$/;"	v
+lock	apps/apsp/apsp.cc	/^pthread_mutex_t lock;$/;"	v
+lock	apps/bc/bc.cc	/^pthread_mutex_t lock;$/;"	v
+lock	apps/bc/bc_non_partitioned.cc	/^pthread_mutex_t lock;$/;"	v
+lock	apps/bfs/bfs.cc	/^pthread_mutex_t lock;              \/\/single lock$/;"	v
+lock	apps/bfs/bfs_atomic.cc	/^pthread_mutex_t lock;            \/\/single lock$/;"	v
+lock	apps/community/community_atomic.cc	/^pthread_mutex_t lock;                          \/\/single lock$/;"	v
+lock	apps/community/community_lock.cc	/^pthread_mutex_t lock;                          \/\/single lock$/;"	v
+lock	apps/connected_components/connected_components_atomic.cc	/^pthread_mutex_t lock;$/;"	v
+lock	apps/connected_components/connected_components_lock.cc	/^pthread_mutex_t lock;$/;"	v
+lock	apps/dfs/dfs.cc	/^pthread_mutex_t lock;            \/\/single lock$/;"	v
+lock	apps/pagerank/pagerank.cc	/^pthread_mutex_t lock;           \/\/single lock$/;"	v
+lock	apps/pagerank/pagerank_lock.cc	/^pthread_mutex_t lock;           \/\/single lock$/;"	v
+lock	apps/sssp/sssp.cc	/^pthread_mutex_t lock;$/;"	v
+lock	apps/sssp/sssp_outer.cc	/^pthread_mutex_t lock;$/;"	v
+lock	apps/sssp/sssp_outer_atomic.cc	/^pthread_mutex_t lock;$/;"	v
+lock	apps/triangle_counting/sorted_neighbors_tri_lock.cc	/^pthread_mutex_t lock;$/;"	v
+lock	apps/triangle_counting/triangle_counting_atomic.cc	/^pthread_mutex_t lock;$/;"	v
+lock	apps/triangle_counting/triangle_counting_lock.cc	/^pthread_mutex_t lock;$/;"	v
+locks	apps/apsp/apsp.cc	/^pthread_mutex_t locks[4194304];  \/\/unused$/;"	v
+locks	apps/bc/bc.cc	/^pthread_mutex_t locks[4194304];$/;"	v
+locks	apps/bc/bc_non_partitioned.cc	/^pthread_mutex_t *locks;$/;"	v
+locks	apps/bfs/bfs.cc	/^pthread_mutex_t *locks;$/;"	v
+locks	apps/community/community_atomic.cc	/^pthread_mutex_t *locks;$/;"	v
+locks	apps/community/community_lock.cc	/^pthread_mutex_t *locks;$/;"	v
+locks	apps/dfs/dfs.cc	/^pthread_mutex_t locks[4194304];  \/\/locks for each vertes, upper limit$/;"	v
+locks	apps/pagerank/pagerank.cc	/^pthread_mutex_t locks[4194304]; \/\/upper limit for locks, can be increased$/;"	v
+locks	apps/sssp/sssp.cc	/^pthread_mutex_t locks[2097152]; \/\/change the number of locks to approx or greater N$/;"	v
+locks	apps/sssp/sssp_outer.cc	/^pthread_mutex_t locks[2097152]; \/\/change the number of locks to approx or greater N$/;"	v
+locks	apps/sssp/sssp_outer_atomic.cc	/^pthread_mutex_t locks[2097152]; \/\/change the number of locks to approx or greater N$/;"	v
+locks	apps/triangle_counting/sorted_neighbors_tri_lock.cc	/^pthread_mutex_t *locks;$/;"	v
+locks	apps/triangle_counting/triangle_counting_atomic.cc	/^pthread_mutex_t *locks;$/;"	v
+locks	apps/triangle_counting/triangle_counting_lock.cc	/^pthread_mutex_t *locks;$/;"	v
+main	apps/apsp/apsp.cc	/^int main(int argc, char** argv)$/;"	f
+main	apps/bc/bc.cc	/^int main(int argc, char** argv)$/;"	f
+main	apps/bc/bc_non_partitioned.cc	/^int main(int argc, char** argv)$/;"	f
+main	apps/bfs/bfs.cc	/^int main(int argc, char** argv)$/;"	f
+main	apps/bfs/bfs_atomic.cc	/^int main(int argc, char** argv)$/;"	f
+main	apps/community/community_atomic.cc	/^int main(int argc, char** argv)$/;"	f
+main	apps/community/community_lock.cc	/^int main(int argc, char** argv)$/;"	f
+main	apps/connected_components/connected_components_atomic.cc	/^int main(int argc, char** argv)$/;"	f
+main	apps/connected_components/connected_components_lock.cc	/^int main(int argc, char** argv)$/;"	f
+main	apps/dfs/dfs.cc	/^int main(int argc, char** argv)$/;"	f
+main	apps/pagerank/pagerank.cc	/^int main(int argc, char** argv)$/;"	f
+main	apps/pagerank/pagerank_lock.cc	/^int main(int argc, char** argv)$/;"	f
+main	apps/sssp/sssp.cc	/^int main(int argc, char** argv)$/;"	f
+main	apps/sssp/sssp_outer.cc	/^int main(int argc, char** argv)$/;"	f
+main	apps/sssp/sssp_outer_atomic.cc	/^int main(int argc, char** argv)$/;"	f
+main	apps/triangle_counting/sorted_neighbors_tri_lock.cc	/^int main(int argc, char** argv)$/;"	f
+main	apps/triangle_counting/triangle_counting_atomic.cc	/^int main(int argc, char** argv)$/;"	f
+main	apps/triangle_counting/triangle_counting_lock.cc	/^int main(int argc, char** argv)$/;"	f
+main	apps/tsp/tsp.cc	/^int main(int argc, char** argv)$/;"	f
+make_dot_graph	apps/sssp/sssp.cc	/^void make_dot_graph(int **W,int **W_index,int *exist,int *D,int N,int DEG,const char *fn)$/;"	f
+make_dot_graph	apps/sssp/sssp_outer.cc	/^void make_dot_graph(int **W,int **W_index,int *exist,int *D,int N,int DEG,const char *fn)$/;"	f
+make_dot_graph	apps/sssp/sssp_outer_atomic.cc	/^void make_dot_graph(int **W,int **W_index,int *exist,int *D,int N,int DEG,const char *fn)$/;"	f
+min	apps/apsp/apsp.cc	/^int min = INT_MAX;    \/\/For local mins$/;"	v
+min	apps/bc/bc.cc	/^int min = INT_MAX;$/;"	v
+min	apps/bc/bc_non_partitioned.cc	/^int min = INT_MAX;$/;"	v
+min	apps/sssp/sssp.cc	/^int min = INT_MAX;$/;"	v
+min	apps/sssp/sssp_outer.cc	/^int min = INT_MAX;$/;"	v
+min	apps/sssp/sssp_outer_atomic.cc	/^int min = INT_MAX;$/;"	v
+min_index	apps/apsp/apsp.cc	/^int min_index = 0;$/;"	v
+min_index	apps/bc/bc.cc	/^int min_index = 0;         \/\/For local mins$/;"	v
+min_index	apps/bc/bc_non_partitioned.cc	/^int min_index = 0;         \/\/For local mins$/;"	v
+min_index	apps/sssp/sssp.cc	/^int min_index = 0;$/;"	v
+min_index	apps/sssp/sssp_outer.cc	/^int min_index = 0;$/;"	v
+min_index	apps/sssp/sssp_outer_atomic.cc	/^int min_index = 0;$/;"	v
+mod_gain	apps/community/community_atomic.cc	/^   float*      mod_gain;$/;"	m	struct:__anon13	file:
+mod_gain	apps/community/community_lock.cc	/^   float*      mod_gain;$/;"	m	struct:__anon14	file:
+mtx	common/mtx.h	/^void mtx(const char* filename)$/;"	f
+nodecount	apps/pagerank/pagerank.cc	/^int nodecount = 0;$/;"	v
+old_range	apps/sssp/sssp.cc	/^int old_range =1;$/;"	v
+outlinks	apps/pagerank/pagerank.cc	/^int *outlinks;      \/\/array for outlinks$/;"	v
+outlinks	apps/pagerank/pagerank_lock.cc	/^int *outlinks;      \/\/array for outlinks$/;"	v
+passed	common/barrier.h	/^volatile int passed = 0; \/\/ Number of barriers, passed by all threads.$/;"	v
+pgtmp	apps/pagerank/pagerank.cc	/^double *pgtmp;      \/\/temporary pageranks$/;"	v
+pgtmp	apps/pagerank/pagerank_lock.cc	/^double *pgtmp;      \/\/temporary pageranks$/;"	v
+pid	apps/sssp/sssp.cc	/^int pid=0;$/;"	v
+print	apps/tsp/tsp.cc	/^PartialTour::print() const$/;"	f	class:PartialTour
+range	apps/sssp/sssp.cc	/^int range=1;       \/\/starting range$/;"	v
+relax	apps/apsp/apsp.cc	/^void relax(int u, int i, volatile int* D, int** W, int** W_index, int N)$/;"	f
+relax	apps/bc/bc.cc	/^void relax(int u, int i, volatile int* D, int** W, int** W_index, int N)$/;"	f
+relax	apps/bc/bc_non_partitioned.cc	/^void relax(int u, int i, volatile int* D, int** W, int** W_index, int N)$/;"	f
+relax	apps/sssp/sssp.cc	/^void relax(int u, int i, volatile int* D, int** W, int** W_index, int N)$/;"	f
+relax	apps/sssp/sssp_outer.cc	/^void relax(int u, int i, volatile int* D, int** W, int** W_index, int N)$/;"	f
+relax	apps/sssp/sssp_outer_atomic.cc	/^void relax(int u, int i, volatile int* D, int** W, int** W_index, int N)$/;"	f
+setCost	apps/tsp/tsp.cc	/^      void setCost(int cost)                    { _cost = cost;       }$/;"	f	class:PartialTour
+sigma	apps/bc/bc.cc	/^   int**     sigma;$/;"	m	struct:__anon6	file:
+sigma	apps/bc/bc_non_partitioned.cc	/^   int*      sigma;$/;"	m	struct:__anon5	file:
+start	apps/apsp/apsp.cc	/^int start = 64;$/;"	v
+start	apps/bc/bc.cc	/^int start = 64;$/;"	v
+start	apps/bc/bc_non_partitioned.cc	/^int start = 64;$/;"	v
+temporary	apps/bfs/bfs.cc	/^int *temporary;$/;"	v
+temporary	apps/bfs/bfs_atomic.cc	/^int *temporary;$/;"	v
+temporary	apps/dfs/dfs.cc	/^int *temporary;$/;"	v
+terminate	apps/bfs/bfs.cc	/^int terminate = 0;                 \/\/work termination$/;"	v
+terminate	apps/bfs/bfs_atomic.cc	/^int terminate = 0;               \/\/work termination$/;"	v
+terminate	apps/dfs/dfs.cc	/^int terminate = 0;               \/\/work termination$/;"	v
+terminate	apps/pagerank/pagerank.cc	/^int terminate = 0;  \/\/terminate variable$/;"	v
+terminate	apps/pagerank/pagerank_lock.cc	/^int terminate = 0;  \/\/terminate variable$/;"	v
+terminate	apps/sssp/sssp.cc	/^int terminate = 0;$/;"	v
+terminate	apps/sssp/sssp_outer.cc	/^int terminate = 0;$/;"	v
+terminate	apps/sssp/sssp_outer_atomic.cc	/^int terminate = 0;$/;"	v
+test	apps/pagerank/pagerank.cc	/^int *test;          \/\/test variable arrays for graph storage$/;"	v
+test	apps/pagerank/pagerank_lock.cc	/^int *test;          \/\/test variable arrays for graph storage$/;"	v
+test2	apps/pagerank/pagerank.cc	/^int *test2;$/;"	v
+test2	apps/pagerank/pagerank_lock.cc	/^int *test2;$/;"	v
+threadWork	apps/tsp/tsp.cc	/^void* threadWork(void* targ)$/;"	f
+thread_arg	apps/apsp/apsp.cc	/^thread_arg_t thread_arg[1024];$/;"	v
+thread_arg	apps/bc/bc.cc	/^thread_arg_t thread_arg[1024];$/;"	v
+thread_arg	apps/bc/bc_non_partitioned.cc	/^thread_arg_t thread_arg[1024];$/;"	v
+thread_arg	apps/bfs/bfs.cc	/^thread_arg_t thread_arg[1024];$/;"	v
+thread_arg	apps/bfs/bfs_atomic.cc	/^thread_arg_t thread_arg[1024];$/;"	v
+thread_arg	apps/community/community_atomic.cc	/^thread_arg_t thread_arg[1024];$/;"	v
+thread_arg	apps/community/community_lock.cc	/^thread_arg_t thread_arg[1024];$/;"	v
+thread_arg	apps/connected_components/connected_components_atomic.cc	/^thread_arg_t thread_arg[1024];$/;"	v
+thread_arg	apps/connected_components/connected_components_lock.cc	/^thread_arg_t thread_arg[1024];$/;"	v
+thread_arg	apps/dfs/dfs.cc	/^thread_arg_t thread_arg[1024];$/;"	v
+thread_arg	apps/pagerank/pagerank.cc	/^thread_arg_t thread_arg[1024];    \/\/MAX threads$/;"	v
+thread_arg	apps/pagerank/pagerank_lock.cc	/^thread_arg_t thread_arg[1024];    \/\/MAX threads$/;"	v
+thread_arg	apps/sssp/sssp.cc	/^thread_arg_t thread_arg[1024];$/;"	v
+thread_arg	apps/sssp/sssp_outer.cc	/^thread_arg_t thread_arg[1024];$/;"	v
+thread_arg	apps/sssp/sssp_outer_atomic.cc	/^thread_arg_t thread_arg[1024];$/;"	v
+thread_arg	apps/triangle_counting/sorted_neighbors_tri_lock.cc	/^thread_arg_t thread_arg[1024];       \/\/Max threads and pthread handlers$/;"	v
+thread_arg	apps/triangle_counting/triangle_counting_atomic.cc	/^thread_arg_t thread_arg[1024];       \/\/Max threads and pthread handlers$/;"	v
+thread_arg	apps/triangle_counting/triangle_counting_lock.cc	/^thread_arg_t thread_arg[1024];       \/\/Max threads and pthread handlers$/;"	v
+thread_arg_t	apps/apsp/apsp.cc	/^} thread_arg_t;$/;"	t	typeref:struct:__anon1	file:
+thread_arg_t	apps/bc/bc.cc	/^} thread_arg_t;$/;"	t	typeref:struct:__anon6	file:
+thread_arg_t	apps/bc/bc_non_partitioned.cc	/^} thread_arg_t;$/;"	t	typeref:struct:__anon5	file:
+thread_arg_t	apps/bfs/bfs.cc	/^} thread_arg_t;$/;"	t	typeref:struct:__anon4	file:
+thread_arg_t	apps/bfs/bfs_atomic.cc	/^} thread_arg_t;$/;"	t	typeref:struct:__anon3	file:
+thread_arg_t	apps/community/community_atomic.cc	/^} thread_arg_t;$/;"	t	typeref:struct:__anon13	file:
+thread_arg_t	apps/community/community_lock.cc	/^} thread_arg_t;$/;"	t	typeref:struct:__anon14	file:
+thread_arg_t	apps/connected_components/connected_components_atomic.cc	/^} thread_arg_t;$/;"	t	typeref:struct:__anon15	file:
+thread_arg_t	apps/connected_components/connected_components_lock.cc	/^} thread_arg_t;$/;"	t	typeref:struct:__anon16	file:
+thread_arg_t	apps/dfs/dfs.cc	/^} thread_arg_t;$/;"	t	typeref:struct:__anon2	file:
+thread_arg_t	apps/pagerank/pagerank.cc	/^} thread_arg_t;$/;"	t	typeref:struct:__anon17	file:
+thread_arg_t	apps/pagerank/pagerank_lock.cc	/^} thread_arg_t;$/;"	t	typeref:struct:__anon18	file:
+thread_arg_t	apps/sssp/sssp.cc	/^} thread_arg_t;$/;"	t	typeref:struct:__anon11	file:
+thread_arg_t	apps/sssp/sssp_outer.cc	/^} thread_arg_t;$/;"	t	typeref:struct:__anon10	file:
+thread_arg_t	apps/sssp/sssp_outer_atomic.cc	/^} thread_arg_t;$/;"	t	typeref:struct:__anon12	file:
+thread_arg_t	apps/triangle_counting/sorted_neighbors_tri_lock.cc	/^} thread_arg_t;$/;"	t	typeref:struct:__anon8	file:
+thread_arg_t	apps/triangle_counting/triangle_counting_atomic.cc	/^} thread_arg_t;$/;"	t	typeref:struct:__anon7	file:
+thread_arg_t	apps/triangle_counting/triangle_counting_lock.cc	/^} thread_arg_t;$/;"	t	typeref:struct:__anon9	file:
+thread_handle	apps/apsp/apsp.cc	/^pthread_t   thread_handle[1024];  \/\/MAX threads and pthread handlers$/;"	v
+thread_handle	apps/bc/bc.cc	/^pthread_t   thread_handle[1024];   \/\/MAX threads and pthread handlers$/;"	v
+thread_handle	apps/bc/bc_non_partitioned.cc	/^pthread_t   thread_handle[1024];   \/\/MAX threads and pthread handlers$/;"	v
+thread_handle	apps/bfs/bfs.cc	/^pthread_t   thread_handle[1024];$/;"	v
+thread_handle	apps/bfs/bfs_atomic.cc	/^pthread_t   thread_handle[1024];$/;"	v
+thread_handle	apps/community/community_atomic.cc	/^pthread_t   thread_handle[1024];               \/\/MAX threads and pthread handlers$/;"	v
+thread_handle	apps/community/community_lock.cc	/^pthread_t   thread_handle[1024];               \/\/MAX threads and pthread handlers$/;"	v
+thread_handle	apps/connected_components/connected_components_atomic.cc	/^pthread_t   thread_handle[1024];   \/\/Max threads and pthread handlers$/;"	v
+thread_handle	apps/connected_components/connected_components_lock.cc	/^pthread_t   thread_handle[1024];   \/\/Max threads and pthread handlers$/;"	v
+thread_handle	apps/dfs/dfs.cc	/^pthread_t   thread_handle[1024];$/;"	v
+thread_handle	apps/pagerank/pagerank.cc	/^pthread_t   thread_handle[1024];  \/\/pthread handlers$/;"	v
+thread_handle	apps/pagerank/pagerank_lock.cc	/^pthread_t   thread_handle[1024];  \/\/pthread handlers$/;"	v
+thread_handle	apps/sssp/sssp.cc	/^pthread_t   thread_handle[1024];$/;"	v
+thread_handle	apps/sssp/sssp_outer.cc	/^pthread_t   thread_handle[1024];$/;"	v
+thread_handle	apps/sssp/sssp_outer_atomic.cc	/^pthread_t   thread_handle[1024];$/;"	v
+thread_handle	apps/triangle_counting/sorted_neighbors_tri_lock.cc	/^pthread_t   thread_handle[1024];$/;"	v
+thread_handle	apps/triangle_counting/triangle_counting_atomic.cc	/^pthread_t   thread_handle[1024];$/;"	v
+thread_handle	apps/triangle_counting/triangle_counting_lock.cc	/^pthread_t   thread_handle[1024];$/;"	v
+tid	apps/apsp/apsp.cc	/^   int       tid;$/;"	m	struct:__anon1	file:
+tid	apps/bc/bc.cc	/^   int       tid;$/;"	m	struct:__anon6	file:
+tid	apps/bc/bc_non_partitioned.cc	/^   int       tid;$/;"	m	struct:__anon5	file:
+tid	apps/bfs/bfs.cc	/^   int       tid;$/;"	m	struct:__anon4	file:
+tid	apps/bfs/bfs_atomic.cc	/^   int       tid;$/;"	m	struct:__anon3	file:
+tid	apps/community/community_atomic.cc	/^   int         tid;                  \/\/Thread ID$/;"	m	struct:__anon13	file:
+tid	apps/community/community_lock.cc	/^   int         tid;                  \/\/Thread ID$/;"	m	struct:__anon14	file:
+tid	apps/connected_components/connected_components_atomic.cc	/^   int       tid;$/;"	m	struct:__anon15	file:
+tid	apps/connected_components/connected_components_lock.cc	/^   int       tid;$/;"	m	struct:__anon16	file:
+tid	apps/dfs/dfs.cc	/^   int       tid;$/;"	m	struct:__anon2	file:
+tid	apps/pagerank/pagerank.cc	/^   int       tid;$/;"	m	struct:__anon17	file:
+tid	apps/pagerank/pagerank_lock.cc	/^   int       tid;$/;"	m	struct:__anon18	file:
+tid	apps/sssp/sssp.cc	/^   int       tid;$/;"	m	struct:__anon11	file:
+tid	apps/sssp/sssp_outer.cc	/^   int       tid;$/;"	m	struct:__anon10	file:
+tid	apps/sssp/sssp_outer_atomic.cc	/^   int       tid;$/;"	m	struct:__anon12	file:
+tid	apps/triangle_counting/sorted_neighbors_tri_lock.cc	/^   int       tid;$/;"	m	struct:__anon8	file:
+tid	apps/triangle_counting/triangle_counting_atomic.cc	/^   int       tid;$/;"	m	struct:__anon7	file:
+tid	apps/triangle_counting/triangle_counting_lock.cc	/^   int       tid;$/;"	m	struct:__anon9	file:
+total_mod_gain	apps/community/community_atomic.cc	/^   float*      total_mod_gain;$/;"	m	struct:__anon13	file:
+total_mod_gain	apps/community/community_lock.cc	/^   float*      total_mod_gain;$/;"	m	struct:__anon14	file:
+u	apps/apsp/apsp.cc	/^int u = 0;                       \/\/next best vertex$/;"	v
+u	apps/bc/bc.cc	/^int u = 0;                  \/\/next best vertex$/;"	v
+u	apps/bc/bc_non_partitioned.cc	/^int u = 0;                  \/\/next best vertex$/;"	v
+u	apps/sssp/sssp.cc	/^int u = -1;$/;"	v
+u	apps/sssp/sssp_outer.cc	/^int u = -1;$/;"	v
+u	apps/sssp/sssp_outer_atomic.cc	/^int u = -1;$/;"	v
+unique	common/mtx.h	/^int *unique;      \/\/Unique vertex $/;"	v
+v_test	apps/community/community_atomic.cc	/^int v_test = -1;$/;"	v
+v_test	apps/community/community_lock.cc	/^int v_test = -1;$/;"	v
+~PartialTour	apps/tsp/tsp.cc	/^PartialTour::~PartialTour()$/;"	f	class:PartialTour
+~ThreadData	apps/tsp/tsp.cc	/^ThreadData::~ThreadData()$/;"	f	class:ThreadData
